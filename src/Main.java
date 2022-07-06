@@ -3,8 +3,8 @@ public class Main {
 
         int balance0 = 2000; //баланс начальный
         int refill = 300; //бонусное пополнение
-        int x = 100; //шаг бонуса
-        int bonus = refill / x; //бонусные рубли
+        int bonusStep = 100; //шаг бонуса
+        int bonus = refill / bonusStep; //бонусные рубли
 
         if (refill > 1000) {
             System.out.println("Итоговый счет: " + (bonus + balance0 + refill) + " руб");
